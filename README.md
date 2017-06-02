@@ -13,7 +13,7 @@ Display a list of all the beers you have in the database along with their attrib
 
 ### Add Beers
 !["Addbeer"](screenshots/addbeer.png "Add beers")
-Add beers to the database.  Allows you to set the title, style, Original Gravity, SRM, batch size and created date
+Add beers to the database.  Allows you to set the title, style, Original Gravity, IBUs, SRM, batch size and created date
 
 ### Edit Tap List
 !["Edittaplist"](screenshots/edittaplist.png "Edit tap list")
