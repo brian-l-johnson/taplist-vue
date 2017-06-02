@@ -30,7 +30,9 @@ export default {
 		for (var i = 0; i<this.taplist.length; i++) {
 			var tap = this.taplist[i];
 			if(tap.beer.title != "Empty") {
-				this.fillGlass(tap.tapId, tap.beer.srm, 1);
+				var batchSizeOz = tap.beer.batchSize *64;
+				var percent = (batchSizeOz - tap.beer.dispencedAmount)/batchSizeOz;
+				this.fillGlass(tap.tapId, tap.beer.srm, percent);
 			}
 		}
 	},
