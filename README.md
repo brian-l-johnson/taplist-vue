@@ -1,6 +1,6 @@
 # taplist-vue
 
-> A Vue.js project for a digital taplist
+> A Vue.js project for a digital taplist.  Frontend code only.
 
 ## Build Setup
 
