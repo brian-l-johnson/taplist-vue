@@ -31,7 +31,7 @@
 			<label class="control-label" for="style">Created On:</label>
 			<input type="text" class="form-control" id="srm" v-model="beer.createdDate">
 		</div>
-		<button v-on:click="Create()">Push Me!</button>
+		<button v-on:click="Create()">Create Beer</button>
 
 	</form>
 </div>
