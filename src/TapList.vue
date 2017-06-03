@@ -25,6 +25,9 @@ export default {
 	
 	created:function() {
 		this.getBeerList();
+		setInterval(function() {
+			this.getBeerList();
+		}.bind(this), 10000);
 	},
 	updated:function() {
 		for (var i = 0; i<this.taplist.length; i++) {
